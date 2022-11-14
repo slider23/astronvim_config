@@ -212,6 +212,7 @@ local config = {
         plugins = {
                 init = {
                         { "wakatime/vim-wakatime" },
+                        { "github/copilot.vim" },
                         {
                                 "catppuccin/nvim",
                                 as = "catppuccin",
@@ -312,6 +313,11 @@ local config = {
                                 },
                         },
                 },
+                -- ["telescope"] = {
+                --         defaults = {
+                --                 file_ignore_patterns = {"node_modules"}
+                --         }
+                -- },
         },
 
         -- LuaSnip Options
@@ -377,7 +383,7 @@ local config = {
         end,
 }
 
--- " Russian
+-- Russian
 -- :set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz,[!"№%:,.;()_+[]\;',./{}||:"<>?;~!@#$%^&*()_+[]\;',./{}|:"<>?
 
 return config
