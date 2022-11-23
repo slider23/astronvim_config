@@ -10,20 +10,12 @@ return {
                 require('nightfox').setup {}
             end,
         },
-        {
-            "catppuccin/nvim",
-            as = "catppuccin",
+        { "rakr/vim-two-firewatch",
+            as="firewatch",
             config = function()
-                require("catppuccin").setup {}
+                require('firewatch').setup {}
             end,
-        },
-        {
-            "sainnhe/everforest",
-            as = "everforest",
-            config = function()
-                require('everforest').setup {}
-            end,
-        },
+        }, -- light/dark smooth theme
         -- You can disable default plugins as follows:
         -- ["goolord/alpha-nvim"] = { disable = true },
 

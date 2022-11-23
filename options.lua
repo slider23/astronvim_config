@@ -11,9 +11,18 @@ return {
         -- langmap = "ЖФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;:ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz",
         -- langmap        = 'ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz',
         -- langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz,[!"№%:,.;()_+[]\;',./{}||:"<>?;~!@#$%^&*()_+[]\;',./{}|:"<>?
+
+        -- Tab settings
         tabstop        = 4,
         shiftwidth     = 4,
+        softtabstop    = 4,
         expandtab      = true,
+
+        -- Undo (ThePrimeagen)
+        undodir        = vim.fn.stdpath("cache") .. "/undo",
+        undofile       = true,
+        swapfile       = false,
+        backup         = false,
     },
     g = {
         mapleader = " ", -- sets vim.g.mapleader

@@ -53,6 +53,18 @@ local config = {
         },
     },
 
+    -- LuaSnip Options
+    luasnip = {
+        -- Add paths for including more VS Code style snippets in luasnip
+        vscode_snippet_paths = {},
+        -- Extend filetypes
+        filetype_extend = {
+            -- javascript = { "javascriptreact" },
+        },
+    },
+
+
+
     -- Add highlight groups in any theme
     highlights = {
         -- init = { -- this table overrides highlights in all themes
@@ -62,8 +74,6 @@ local config = {
         --   Normal = { bg = "#000000" },
         -- },
     },
-
-
 
     -- Default theme configuration
     default_theme = {
@@ -157,16 +167,6 @@ local config = {
             --     },
             --   },
             -- },
-        },
-    },
-
-    -- LuaSnip Options
-    luasnip = {
-        -- Add paths for including more VS Code style snippets in luasnip
-        vscode_snippet_paths = {},
-        -- Extend filetypes
-        filetype_extend = {
-            -- javascript = { "javascriptreact" },
         },
     },
 
