@@ -10,12 +10,6 @@ return {
                 require('nightfox').setup {}
             end,
         },
-        { "rakr/vim-two-firewatch",
-            as="firewatch",
-            config = function()
-                require('firewatch').setup {}
-            end,
-        }, -- light/dark smooth theme
         -- You can disable default plugins as follows:
         -- ["goolord/alpha-nvim"] = { disable = true },
 
