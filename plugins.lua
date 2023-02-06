@@ -10,6 +10,13 @@ return {
                 require('nightfox').setup {}
             end,
         },
+        {
+            "ggandor/leap.nvim",
+            as = "leap",
+            config = function()
+                require('leap').add_default_mappings()
+            end,
+        }
         -- You can disable default plugins as follows:
         -- ["goolord/alpha-nvim"] = { disable = true },
 
